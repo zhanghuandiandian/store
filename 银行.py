@@ -187,6 +187,7 @@ a)	业务逻辑：
 	若账号和密码都正确，则将该用户的信息都打印出来，比如：当前账号：xxxx,密码:xxxxxx,余额：xxxx元，用户居住地址：xxxxxxxxxxxxx，当前账户的开户行：xxxxxxxxxx.
 
 '''
+
 def cha_moeny():
     for i in bank.keys():
         add = input('输卡号：')
